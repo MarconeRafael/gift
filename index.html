@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
+    <meta
+        name="description"
+        content="Uma pequena história sobre nós."
+    >
+
+    <title>Para você, meu amor ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-heart">♥</div>
+    </div>
+
+    <main>
+        <section class="hero section" id="inicio">
+            <div class="hero-content">
+                <span class="eyebrow">Para você</span>
+
+                <h1>
+                    Algumas histórias
+                    <span>merecem ser lembradas.</span>
+                </h1>
+
+                <p class="hero-text">
+                    E essa é uma pequena parte da nossa.
+                </p>
+
+                <button class="scroll-button" type="button" data-scroll="#historia">
+                    <span>Continuar</span>
+                    <span class="arrow">↓</span>
+                </button>
+            </div>
+
+            <div class="hero-glow hero-glow-left"></div>
+            <div class="hero-glow hero-glow-right"></div>
+        </section>
+
+        <section class="section story" id="historia">
+            <div class="section-heading reveal">
+                <span class="eyebrow">Antes de nós</span>
+                <h2>Duas histórias diferentes.</h2>
+                <p>
+                    Duas pessoas vivendo suas próprias vidas sem imaginar
+                    que um dia seus caminhos iriam se encontrar.
+                </p>
+            </div>
+
+            <div class="photo-pair reveal">
+                <figure class="photo-card photo-card-left">
+                    <img
+                        src="imagens/foto-01.jpg"
+                        alt="Foto de infância"
+                        loading="lazy"
+                    >
+                    <figcaption>Eu, antes de saber que você existia.</figcaption>
+                </figure>
+
+                <div class="story-divider">
+                    <span>+</span>
+                </div>
+
+                <figure class="photo-card photo-card-right">
+                    <img
+                        src="imagens/foto-02.jpg"
+                        alt="Foto de infância dela"
+                        loading="lazy"
+                    >
+                    <figcaption>Você, antes de saber que eu existia.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="section meeting">
+            <div class="meeting-content reveal">
+                <span class="eyebrow">Até que um dia</span>
+
+                <h2>
+                    nossas histórias
+                    <span>se encontraram.</span>
+                </h2>
+
+                <p>
+                    E tudo aquilo que aconteceu antes passou a parecer
+                    parte de uma história muito maior.
+                </p>
+            </div>
+
+            <div class="featured-photo reveal">
+                <img
+                    src="imagens/foto-03.jpg"
+                    alt="Nossa primeira foto juntos"
+                    loading="lazy"
+                >
+                <div class="photo-overlay"></div>
+                <span class="photo-caption">Nós.</span>
+            </div>
+        </section>
+
+        <section class="section gallery-section">
+            <div class="section-heading reveal">
+                <span class="eyebrow">Nós dois</span>
+                <h2>Alguns dos meus momentos favoritos.</h2>
+            </div>
+
+            <div class="gallery">
+                <figure class="gallery-item gallery-item-large reveal">
+                    <img
+                        src="imagens/foto-04.jpg"
+                        alt="Momento nosso"
+                        loading="lazy"
+                    >
+                </figure>
+
+                <figure class="gallery-item reveal">
+                    <img
+                        src="imagens/foto-05.jpg"
+                        alt="Momento nosso"
+                        loading="lazy"
+                    >
+                </figure>
+
+                <figure class="gallery-item reveal">
+                    <img
+                        src="imagens/foto-06.jpg"
+                        alt="Momento nosso"
+                        loading="lazy"
+                    >
+                </figure>
+            </div>
+        </section>
+
+        <section class="section letter-section">
+            <div class="letter reveal">
+                <span class="eyebrow">Uma coisa que eu quero que você saiba</span>
+
+                <div class="letter-content">
+                    <p>
+                        Eu sei que ontem foi difícil.
+                    </p>
+
+                    <p>
+                        Não quero fingir que não aconteceu, nem usar esse
+                        presente para apagar o que sentimos.
+                    </p>
+
+                    <p>
+                        Mas também não quero que uma noite ruim seja capaz
+                        de resumir tudo aquilo que construímos.
+                    </p>
+
+                    <p>
+                        Você continua sendo uma pessoa extremamente importante
+                        para mim.
+                    </p>
+
+                    <p>
+                        E, mesmo com toda a distância, eu continuo querendo
+                        viver muita coisa ao seu lado.
+                    </p>
+
+                    <p class="signature">
+                        Feliz 22 anos, meu amor. ❤️
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section question-section" id="pergunta">
+            <div class="question-card reveal">
+                <span class="eyebrow">E agora...</span>
+
+                <h2>
+                    Depois de tudo isso,
+                    <span>tenho uma pergunta.</span>
+                </h2>
+
+                <p class="question-text">
+                    Você ainda quer continuar essa história comigo?
+                </p>
+
+                <div class="question-actions" id="questionActions">
+                    <button
+                        class="btn btn-yes"
+                        id="yesButton"
+                        type="button"
+                    >
+                        Sim ❤️
+                    </button>
+
+                    <button
+                        class="btn btn-no"
+                        id="noButton"
+                        type="button"
+                    >
+                        Não
+                    </button>
+                </div>
+
+                <p class="question-hint" id="questionHint"></p>
+            </div>
+        </section>
+    </main>
+
+    <div class="success-screen" id="successScreen" aria-hidden="true">
+        <div class="success-content">
+            <div class="success-heart">♥</div>
+
+            <span class="eyebrow">Então...</span>
+
+            <h2>
+                acho que temos
+                <span>um futuro para construir.</span>
+            </h2>
+
+            <p>
+                Mas o pedido oficial ainda vai precisar ser feito
+                pessoalmente. ❤️
+            </p>
+
+            <button
+                class="restart-button"
+                id="closeSuccess"
+                type="button"
+            >
+                Voltar para o começo
+            </button>
+        </div>
+
+        <div class="confetti" id="confetti"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
